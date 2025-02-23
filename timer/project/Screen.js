@@ -17,6 +17,7 @@ const Screen = () => {
 
     const styles = screenStyles(isDarkMode);
     let strings = SCREEN_STRINGS
+    
 
     useEffect(() => {
         loadTimers();
